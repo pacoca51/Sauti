@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_margin">4dp</dimen>
+    <dimen name="spinner_text_size">8pt</dimen>
+
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="eventpluginviewpager_horizontal_margin">12dp</dimen>
+    <dimen name="eventpluginviewpager_vertical_margin">8dp</dimen>
+
+    <dimen name="lr_padding_inner">5dp</dimen>
+    <dimen name="lr_padding_outer">10dp</dimen>
+    <integer name="lr_weight_left">1</integer>
+    <integer name="lr_weight_right">5</integer>
+    <integer name="lr_input_weight_left">1</integer>
+    <integer name="lr_input_weight_right">4</integer>
+
+    <dimen name="list_item_operation_selection_margin">4dp</dimen>
+    <dimen name="list_item_operation_selection_text_size">12pt</dimen>
+
+    <dimen name="plugin_feature_icon_size">16dp</dimen>
+</resources>

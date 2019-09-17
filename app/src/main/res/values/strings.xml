@@ -1,0 +1,161 @@
+<resources>
+    <string name="sauti">Sauti</string>
+    <string name="app_name">@string/sauti</string>
+    <string name="drawer_tip">Sauti sauti</string>
+    <string name="title_outline">Outline</string>
+    <string name="title_operation">Operation</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_event">Event</string>
+    <string name="title_script">Script</string>
+    <string name="title_condition">Condition</string>
+    <string name="title_application">App</string>
+    <string name="title_activity_log">Activity Log</string>
+    <string name="title_about">About</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_add">Add</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_edit_event">Edit Event</string>
+    <string name="title_edit_condition">Edit Condition</string>
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="title_select_operation">Select an Operation</string>
+    <string name="title_trigger_profile">Trigger this Profile</string>
+
+    <string name="menu_start">Start</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_action_save">Save</string>
+
+    <string name="service_indicator_positive">Running</string>
+    <string name="service_indicator_negative">Not running</string>
+
+    <string name="activity_log__profile">@string/title_profile</string>
+    <string name="activity_log__script">@string/title_script</string>
+    <string name="activity_log__time">Time</string>
+    <string name="activity_log__extra">Extra info</string>
+    <string name="activity_log__satisfaction">Status</string>
+    <string name="activity_log__satisfied">Satisfied</string>
+    <string name="activity_log__unsatisfied">Unsatisfied</string>
+    <string name="activity_log__service">Service</string>
+    <string name="activity_log__status">Status</string>
+    <string name="activity_log__start">Start</string>
+    <string name="activity_log__stop">Stop</string>
+
+    <string name="null_content">NULL CONTENT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="button_read_next_time">Read next time</string>
+    <string name="button_understand">Understood</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+
+    <string name="text_lack_permission">Sauti does NOT have all permissions it needs.</string>
+    <string name="button_request_permission">Grant permissions</string>
+
+    <string name="text_parent_node">Parent</string>
+    <string name="text_parent">Parent</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_predefined_event">Predefined Event</string>
+    <string name="text_inline_event">Inline Event</string>
+    <string name="text_use_condition">Use Condition</string>
+    <string name="text_repeatable_desc">Repeatable when satisfied</string>
+    <string name="text_reverse_desc">Reverse Scenario</string>
+    <string name="text_persistent">Persistent</string>
+
+    <string name="toggle_active">Active</string>
+
+    <string name="hint_event_title">Event title</string>
+    <string name="hint_script_title">Script title</string>
+    <string name="hint_profile_title">Profile title</string>
+    <string name="hint_condition_title">Condition title</string>
+
+    <string name="prompt_save_failed">Failed to save</string>
+    <string name="prompt_delete">Are you sure to delete: %s</string>
+    <string name="prompt_delete_failed">Failed to delete. Check if this item is being used.</string>
+    <string name="prompt_data_illegal">Prevented saving data with invalid field(s). Please recheck your choices/inputs.</string>
+
+    <string name="prompt_prevented_for_permission">Sauti needs permission &lt;%s&gt; for this function.</string>
+
+    <string name="appInformation"></string>
+
+    <string name="liscence_stringa"></string>
+
+    <string name="liscence_stringb"></string>
+
+    <string name="liscence_stringc"></string>
+
+    <string name="pref_category_functionality">Functionality</string>
+    <string name="pref_category_personalise">Personalise</string>
+    <string name="pref_category_data_manage">Data manage</string>
+
+    <string name="pref_autostart_title">Autostart on boot</string>
+    <string name="pref_autostart_summary">Start Sauti background service automatically</string>
+
+    <string name="pref_restart_after_upgrade_title">Start service after upgrade</string>
+
+    <string name="pref_welcome_title">Show welcome message</string>
+    <string name="pref_welcome_summary">Show welcome message on app startup</string>
+
+    <string name="pref_logging_title">Enable external logging</string>
+    <string name="pref_logging_summary">Save logs to external storage devices (/sdcard/logger) to aid bug reports.\nChange of this setting will take effect from next time Easer starts.</string>
+
+    <string name="pref_use_root_title">Use root features</string>
+    <string name="pref_use_root_summary">Use root permission for specific functions (plugins), which may help resolve compatibility issue on some devices. Root permission won\'t be used elsewhere.</string>
+
+    <string name="pref_cooldown_title">Cool down time</string>
+    <string name="pref_cooldown_summary">Minimal interval between two triggers of the same event</string>
+    <string name="cooldown_time_illformed">The number must not be lower than 0 and not too large to fit in a integer</string>
+
+    <string name="pref_passive_mode_title">Passive mode</string>
+    <string name="pref_passive_mode_summary_on">Listen to Event. No checking when activated</string>
+    <string name="pref_passive_mode_summary_off">Check the satisfaction state when (each) Event is activated</string>
+
+    <string name="pref_enabled_plugins_title">Enabled plugins</string>
+    <string name="pref_enabled_plugins_summary">Enable or disable certain plugins</string>
+
+    <string name="pref_use_12_hour_clock_title">Use 12-hour clock</string>
+
+    <string name="pref_export_title">Export</string>
+    <string name="pref_export_summary">Export all events and profiles to SD Card.\nFile will be named after current time.</string>
+    <string name="pref_import_title">Import</string>
+    <string name="pref_import_summary">Import all events and profiles in a zip file.\nExisting events and profiles with same name will be replaced.</string>
+
+    <string name="pref_convert_data_title">Convert data</string>
+    <string name="pref_convert_data_summary">Convert all data to the recommended format</string>
+
+    <string name="message_plugin_not_compatible">This plugin is not compatible with this device.</string>
+
+    <string name="message_convert_data_start">Converting data.</string>
+    <string name="message_convert_data_finish">Converted data.</string>
+    <string name="message_convert_data_abort">Convert data aborted.</string>
+    <string name="message_convert_data_error">Error occurred when converting data. Please see the log for details.</string>
+
+    <string name="title_welcome_message">Welcome</string>
+    <string name="welcome_message">Welcome to use Sauti!
+        \n\nPlease read these before starting:\n
+    1. Please grant Sauti corresponding permissions before using relevant events and profiles.\n
+    2. Connecting events as <a href="https://en.wikipedia.org/wiki/Tree_structure">trees</a> is CURRENTLY the only way to compose events.
+        \n\nAlso have a look at <a href="https://github.com/renyuneyun/Easer/wiki/FAQ">FAQ</a> in the project wiki.</string>
+
+    <string name="alert_update_storage_data_title">Old data version found</string>
+    <string name="alert_update_storage_data">Your data were created in an older version. It\'s suggested to update them to new version or Easer may not work well. You can do this by selecting "Convert Data" in settings.</string>
+
+    <string name="template_export">Exported to %s</string>
+    <string name="version">Version</string>
+
+    <string name="message_importing_invalid_data">This file doesn\'t seem to be valid. Make sure to import a file previously exported by Easer.</string>
+
+    <string name="title_help">Help</string>
+    <string name="help_script">Script is the logic containers. You will connect an Event or a Condition with a Profile in a Script, so that Easer knows to load/execute that Profile when that Event happens or the Condition is met.\nThere are also more advanced functions, e.g. reversed event.\nPlease refer to the <a href="https://github.com/renyuneyun/Easer/wiki">document</a> for more information.</string>
+    <string name="help_event">Event represents a short-time (instant) event on your phone or remotely.\nFor example, receiving a notification, or an NFC tag is scanned.\nPlease refer to the <a href="https://github.com/renyuneyun/Easer/wiki">document</a> for more information.</string>
+    <string name="help_condition">Condition represents a long-lasting (but usually not forever) condition on your phone or remotely.\nFor example, connected to WiFi, or Screen is Off.\nPlease refer to the <a href="https://github.com/renyuneyun/Easer/wiki">document</a> for more information.</string>
+    <string name="help_profile">Profile is a set of Operations. Each Operation represents a particular type of action.\nFor example, turn on Bluetooth, or send an SMS.\nPlease refer to the <a href="https://github.com/renyuneyun/Easer/wiki">document</a> for more information.</string>
+
+    <string name="category_operation_android">Android</string>
+    <string name="category_operation_system_config">System config</string>
+    <string name="category_operation_easer">@string/sauti</string>
+    <string name="category_operation_misc">Misc</string>
+
+</resources>
+

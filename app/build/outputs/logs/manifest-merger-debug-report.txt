@@ -1,0 +1,466 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:2:1-166:12
+INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:2:1-166:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8017bea18c774b4b70b9e09944765a1d/databinding-adapters-3.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f7f501075e57ac7266e222d9d3e654b1/databinding-runtime-3.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f4cc650857ca7115336c32e42c84fc6f/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/5ea0b29cb75204746db73749dcd594c6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/58d88fd89258cdd691690d275e842715/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pablo/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/828fd6090e4b4f7e6e519ac1a1c11984/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.orhanobut:logger:2.2.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/977ec4934658bb660409ce75b7ffd2ee/jetified-logger-2.2.0/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c4f1ba644f7fb2a4127efbe45e461ebb/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b4298bb4537874cbc59d2654e95f80d4/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/44b1c5c7553cca17da261b0610bfda75/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/5fe870666b6d54a2ab33f0f3a2bd98ce/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b695b2a56e6a5b6181b3621095c17e85/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/92301fafcffbc47418ffb9a3d7265442/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/1822ddf8bba76c34a8d099a80b65233c/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/febe59ff1da8753dbabd294b938bff61/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8859cba3dd8085149d8fad52d2881a71/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b334d927c7826de0bdd4284376c0771a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/0478e822d483bd44e25f36cea0ebbfd7/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f90f0520ace61e57407c62d05c7599e6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/a6d49c8642ad63e674bb294866a6f37f/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/159d6bf692454e275ce117e5745773ee/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9c933b15d9f93e76e4d82ea7601e25c9/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c3b3b4398b212a9d6db83cd6fa85e466/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8b23317537ebe90a2a229e676ad91caa/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c2eebe165acf9442a84162aac830e07c/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/e123e7d4f1d0b6afe261626cf9ae11a4/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/46cfcc498f2d2fa4502abe721b554702/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c3b4bf8dfe519e5220646fb71f2fce27/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/3bc0115c5a0984d0b97cafc4a417d9b9/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/19253f46621bccf83cc727aa43a78842/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/028d01c4e5e59950a285906368fb793f/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.apmem.tools:layouts:1.10] /home/pablo/.gradle/caches/transforms-2/files-2.1/22118b49bd615a01b2376b3b7fdb366c/layouts-1.10/AndroidManifest.xml:2:1-11:12
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/ba1e34d3b990b195de1ed0c43e864a3b/stickylistheaders-2.7.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:2:1-166:12
+	package
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:4:5-25
+	android:versionName
+		INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:2:1-166:12
+		INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_NOTIFICATION_POLICY
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:8:5-85
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:8:22-82
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:10:5-11:47
+	tools:ignore
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:11:9-44
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:10:22-90
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:13:22-71
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:17:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:18:22-68
+uses-permission#android.permission.NFC
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:19:5-62
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:19:22-59
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:20:22-69
+uses-permission#android.permission.READ_SMS
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:21:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:23:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:26:5-27:47
+	tools:ignore
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:27:9-44
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:26:22-70
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:28:5-78
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:28:22-75
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:29:5-78
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:29:22-75
+application
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:31:5-164:19
+MERGED from [com.google.android.material:material:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f4cc650857ca7115336c32e42c84fc6f/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f4cc650857ca7115336c32e42c84fc6f/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pablo/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pablo/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9c933b15d9f93e76e4d82ea7601e25c9/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9c933b15d9f93e76e4d82ea7601e25c9/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9c933b15d9f93e76e4d82ea7601e25c9/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:36:9-36
+	android:label
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:35:9-41
+	android:icon
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:34:9-43
+	android:allowBackup
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:37:9-40
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:32:9-41
+activity#ryey.easer.core.ui.MainActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:38:9-47:20
+	android:label
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:40:13-45
+	android:theme
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:39:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:45:27-74
+service#ryey.easer.core.EHService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:49:9-52:39
+	android:enabled
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:51:13-35
+	android:exported
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:50:13-43
+service#ryey.easer.core.ProfileLoaderIntentService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:54:13-60
+activity#ryey.easer.core.ui.AboutActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:57:9-59:51
+	android:label
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:59:13-48
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:58:13-50
+activity#ryey.easer.core.ui.setting.SettingsActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:60:9-62:53
+	android:label
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:62:13-50
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:61:13-61
+receiver#ryey.easer.core.BootupReceiver
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:64:9-71:20
+	android:enabled
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:66:13-36
+	android:exported
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:65:13-48
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:68:13-70:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:69:17-79
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:69:25-76
+activity#ryey.easer.core.ui.data.EditScriptActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:73:9-69
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:73:19-66
+activity#ryey.easer.core.ui.data.EditProfileActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:74:9-70
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:74:19-67
+activity#ryey.easer.plugins.operation.brightness.DumbSettingBrightnessActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:75:9-79:52
+	android:excludeFromRecents
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:77:13-46
+	android:theme
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:79:13-49
+	android:taskAffinity
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:78:13-67
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:76:13-87
+service#ryey.easer.plugins.operation.ringer_mode.InterruptionFilterSwitcherService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:81:9-88:19
+	android:label
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:83:13-94
+	android:permission
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:84:13-87
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:82:13-92
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:85:13-87:29
+action#android.service.notification.NotificationListenerService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:17-99
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:25-96
+service#ryey.easer.plugins.event.notification.NotificationEventListenerService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:89:9-96:19
+	android:label
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:91:13-78
+	android:permission
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:92:13-87
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:90:13-88
+activity#ryey.easer.plugins.event.nfc_tag.WaitForNfcActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:100:13-36
+	android:theme
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:101:13-59
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:99:13-69
+intent-filter#action:name:android.nfc.action.TAG_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:102:13-106:29
+action#android.nfc.action.TAG_DISCOVERED
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:103:17-76
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:103:25-73
+category#android.intent.category.DEFAULT
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:105:17-76
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:105:27-73
+activity#ryey.easer.plugins.event.nfc_tag.NfcListenerActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:108:9-114:20
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:108:19-76
+service#ryey.easer.plugins.event.nfc_tag.NfcListenerService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:116:9-119:40
+	android:enabled
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:118:13-35
+	android:exported
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:119:13-37
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:117:13-69
+activity#ryey.easer.core.ui.data.EditEventActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:121:9-68
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:121:19-65
+service#ryey.easer.plugins.operation.media_control.MediaControlHelperNotificationListenerService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:123:9-130:19
+	android:label
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:125:13-81
+	android:permission
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:126:13-87
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:124:13-106
+activity#ryey.easer.core.ui.data.EditConditionActivity
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:132:9-72
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:132:19-69
+receiver#ryey.easer.core.UpgradeCompleteReceiver
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:134:9-141:20
+	android:enabled
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:136:13-35
+	android:exported
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:137:13-37
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:135:13-57
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:138:13-140:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:139:17-84
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:139:25-81
+service#ryey.easer.core.ConditionHolderService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:143:9-146:40
+	android:enabled
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:145:13-35
+	android:exported
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:146:13-37
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:144:13-56
+service#ryey.easer.core.log.ActivityLogService
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:148:9-151:40
+	android:enabled
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:150:13-35
+	android:exported
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:151:13-37
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:149:13-56
+receiver#ryey.easer.core.EaserStatusWidget
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:153:9-163:20
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:153:19-57
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:ryey.easer.action.STATE_CHANGED+action:name:ryey.easer.core.EaserStatusWidget.ACTION_CLICK
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:154:13-158:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:155:17-84
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:155:25-81
+action#ryey.easer.core.EaserStatusWidget.ACTION_CLICK
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:156:17-89
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:156:25-86
+action#ryey.easer.action.STATE_CHANGED
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:157:17-74
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:157:25-71
+meta-data#android.appwidget.provider
+ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:160:13-162:68
+	android:resource
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:162:17-65
+	android:name
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:161:17-58
+uses-sdk
+INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8017bea18c774b4b70b9e09944765a1d/databinding-adapters-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8017bea18c774b4b70b9e09944765a1d/databinding-adapters-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f7f501075e57ac7266e222d9d3e654b1/databinding-runtime-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f7f501075e57ac7266e222d9d3e654b1/databinding-runtime-3.5.0/AndroidManifest.xml:22:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f4cc650857ca7115336c32e42c84fc6f/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f4cc650857ca7115336c32e42c84fc6f/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/5ea0b29cb75204746db73749dcd594c6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/5ea0b29cb75204746db73749dcd594c6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/58d88fd89258cdd691690d275e842715/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/58d88fd89258cdd691690d275e842715/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pablo/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/pablo/.gradle/caches/transforms-2/files-2.1/6102808b9ba7d8939166ec116dd388e7/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/828fd6090e4b4f7e6e519ac1a1c11984/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/828fd6090e4b4f7e6e519ac1a1c11984/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.orhanobut:logger:2.2.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/977ec4934658bb660409ce75b7ffd2ee/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.2.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/977ec4934658bb660409ce75b7ffd2ee/jetified-logger-2.2.0/AndroidManifest.xml:6:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c4f1ba644f7fb2a4127efbe45e461ebb/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c4f1ba644f7fb2a4127efbe45e461ebb/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b4298bb4537874cbc59d2654e95f80d4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b4298bb4537874cbc59d2654e95f80d4/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/44b1c5c7553cca17da261b0610bfda75/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/44b1c5c7553cca17da261b0610bfda75/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/5fe870666b6d54a2ab33f0f3a2bd98ce/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/5fe870666b6d54a2ab33f0f3a2bd98ce/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/0e7c68274fb8b28cc0414eb5b896e448/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b695b2a56e6a5b6181b3621095c17e85/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b695b2a56e6a5b6181b3621095c17e85/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/92301fafcffbc47418ffb9a3d7265442/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/92301fafcffbc47418ffb9a3d7265442/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/1822ddf8bba76c34a8d099a80b65233c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/1822ddf8bba76c34a8d099a80b65233c/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/af36f58cd0e158191b16f152cd9384fa/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/6584f13befaca8ea228d4715e2dc3ad7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/febe59ff1da8753dbabd294b938bff61/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/febe59ff1da8753dbabd294b938bff61/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8859cba3dd8085149d8fad52d2881a71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8859cba3dd8085149d8fad52d2881a71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b334d927c7826de0bdd4284376c0771a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/b334d927c7826de0bdd4284376c0771a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/0478e822d483bd44e25f36cea0ebbfd7/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/0478e822d483bd44e25f36cea0ebbfd7/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f90f0520ace61e57407c62d05c7599e6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/f90f0520ace61e57407c62d05c7599e6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/03a5f07200efd577bbc8803fd8b08cb6/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/a6d49c8642ad63e674bb294866a6f37f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/a6d49c8642ad63e674bb294866a6f37f/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/159d6bf692454e275ce117e5745773ee/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/159d6bf692454e275ce117e5745773ee/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9c933b15d9f93e76e4d82ea7601e25c9/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9c933b15d9f93e76e4d82ea7601e25c9/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9cba381e8055641c4dc40bc11abe10f8/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/67c883568d1fe6725642d1cded7759e4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/2d0d7c2d9455c2e14c5e442172548106/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c3b3b4398b212a9d6db83cd6fa85e466/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c3b3b4398b212a9d6db83cd6fa85e466/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8b23317537ebe90a2a229e676ad91caa/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/8b23317537ebe90a2a229e676ad91caa/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c2eebe165acf9442a84162aac830e07c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c2eebe165acf9442a84162aac830e07c/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/e123e7d4f1d0b6afe261626cf9ae11a4/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/e123e7d4f1d0b6afe261626cf9ae11a4/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/46cfcc498f2d2fa4502abe721b554702/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/46cfcc498f2d2fa4502abe721b554702/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c3b4bf8dfe519e5220646fb71f2fce27/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/c3b4bf8dfe519e5220646fb71f2fce27/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/3bc0115c5a0984d0b97cafc4a417d9b9/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/3bc0115c5a0984d0b97cafc4a417d9b9/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/19253f46621bccf83cc727aa43a78842/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/19253f46621bccf83cc727aa43a78842/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/028d01c4e5e59950a285906368fb793f/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/028d01c4e5e59950a285906368fb793f/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.apmem.tools:layouts:1.10] /home/pablo/.gradle/caches/transforms-2/files-2.1/22118b49bd615a01b2376b3b7fdb366c/layouts-1.10/AndroidManifest.xml:7:5-9:41
+MERGED from [org.apmem.tools:layouts:1.10] /home/pablo/.gradle/caches/transforms-2/files-2.1/22118b49bd615a01b2376b3b7fdb366c/layouts-1.10/AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/ba1e34d3b990b195de1ed0c43e864a3b/stickylistheaders-2.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/ba1e34d3b990b195de1ed0c43e864a3b/stickylistheaders-2.7.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+		ADDED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fbc02d</color>
+    <color name="colorPrimaryDark">#c49000</color>
+    <color name="colorAccent">#d84315</color>
+    <color name="colorAlert">#9f0000</color>
+    <color name="colorDivider">@android:color/darker_gray</color>
+    <color name="colorSegment">#CAD0E2</color>
+
+    <color name="colorDialogTitle">@color/colorAccent</color>
+    <color name="colorText">@android:color/black</color>
+    <color name="colorTextInverse">@android:color/white</color>
+    <color name="colorText_scriptInactive">#9E9E9E</color>
+    <color name="colorText_invalid">@android:color/holo_red_dark</color>
+
+    <color name="listHeaderBackground">@color/colorPrimaryDark</color>
+    <color name="listHeaderText">@color/colorTextInverse</color>
+
+    <color name="color_positive">#afb42b</color>
+    <color name="color_negative">#d32f2f</color>
+
+    <color name="transparent">@android:color/transparent</color>
+</resources>

@@ -1,0 +1,1 @@
+zh/DONATE.md

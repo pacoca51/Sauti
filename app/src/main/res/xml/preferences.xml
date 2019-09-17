@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/key_pref_autostart"
+        android:summary="@string/pref_autostart_summary"
+        android:title="@string/pref_autostart_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/key_pref_restart_after_upgrade"
+        android:title="@string/pref_restart_after_upgrade_title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/key_pref_welcome"
+        android:summary="@string/pref_welcome_summary"
+        android:title="@string/pref_welcome_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/key_pref_logging"
+        android:summary="@string/pref_logging_summary"
+        android:title="@string/pref_logging_title" />
+
+    <PreferenceCategory android:title="@string/pref_category_functionality">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_pref_use_root"
+            android:summary="@string/pref_use_root_summary"
+            android:title="@string/pref_use_root_title" />
+        <EditTextPreference
+            android:defaultValue="3"
+            android:inputType="number"
+            android:key="@string/key_pref_cooldown"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_cooldown_summary"
+            android:title="@string/pref_cooldown_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_pref_passive_mode"
+            android:summaryOn="@string/pref_passive_mode_summary_on"
+            android:summaryOff="@string/pref_passive_mode_summary_off"
+            android:title="@string/pref_passive_mode_title" />
+        <Preference
+            android:key="@string/key_pref_plugins"
+            android:summary="@string/pref_enabled_plugins_summary"
+            android:title="@string/pref_enabled_plugins_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_personalise">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_pref_use_12_hour_clock"
+            android:title="@string/pref_use_12_hour_clock_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_data_manage">
+
+        <Preference
+            android:key="@string/key_pref_export"
+            android:summary="@string/pref_export_summary"
+            android:title="@string/pref_export_title" />
+        <Preference
+            android:key="@string/key_pref_import"
+            android:summary="@string/pref_import_summary"
+            android:title="@string/pref_import_title" />
+
+        <Preference
+            android:key="@string/key_pref_convert_data"
+            android:title="@string/pref_convert_data_title"
+            android:summary="@string/pref_convert_data_summary" />
+    </PreferenceCategory>
+
+    <Preference
+        android:enabled="false"
+        android:key="@string/key_pref_version"
+        android:title="@string/version" />
+</PreferenceScreen>

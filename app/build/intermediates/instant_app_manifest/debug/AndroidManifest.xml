@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ryey.easer"
+    android:targetSandboxVersion="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:name="ryey.easer.EaserApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ryey.easer.core.ui.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="ryey.easer.core.EHService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="ryey.easer.core.ProfileLoaderIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name="ryey.easer.core.ui.AboutActivity"
+            android:label="@string/title_about" />
+        <activity
+            android:name="ryey.easer.core.ui.setting.SettingsActivity"
+            android:label="@string/title_setting" />
+
+        <receiver
+            android:name="ryey.easer.core.BootupReceiver"
+            android:enabled="false"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="ryey.easer.core.ui.data.EditScriptActivity" />
+        <activity android:name="ryey.easer.core.ui.data.EditProfileActivity" />
+        <activity
+            android:name="ryey.easer.plugins.operation.brightness.DumbSettingBrightnessActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.antonc.phone_schedule.Dummy"
+            android:theme="@style/EmptyActivity" />
+
+        <service
+            android:name="ryey.easer.plugins.operation.ringer_mode.InterruptionFilterSwitcherService"
+            android:label="@string/label_operation_ringer_mode_notification_listener_service"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="ryey.easer.plugins.event.notification.NotificationEventListenerService"
+            android:label="@string/label_event_notification_listener_service"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="ryey.easer.plugins.event.nfc_tag.WaitForNfcActivity"
+            android:enabled="false"
+            android:theme="@style/AppTheme.ActivityDialog" >
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ryey.easer.plugins.event.nfc_tag.NfcListenerActivity" >
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="ryey.easer.plugins.event.nfc_tag.NfcListenerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name="ryey.easer.core.ui.data.EditEventActivity" />
+
+        <service
+            android:name="ryey.easer.plugins.operation.media_control.MediaControlHelperNotificationListenerService"
+            android:label="@string/operation_media_control_helper_service_label"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="ryey.easer.core.ui.data.EditConditionActivity" />
+
+        <receiver
+            android:name="ryey.easer.core.UpgradeCompleteReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="ryey.easer.core.ConditionHolderService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="ryey.easer.core.log.ActivityLogService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name="ryey.easer.core.EaserStatusWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="ryey.easer.core.EaserStatusWidget.ACTION_CLICK" />
+                <action android:name="ryey.easer.action.STATE_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/easer_status_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

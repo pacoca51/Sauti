@@ -1,0 +1,334 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ryey.easer"
+4    android:versionName="1.1" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="27"
+7-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="27" />
+8-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+10-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:6:5-81
+10-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:6:22-78
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:7:5-79
+11-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:7:22-76
+12    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+12-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:8:5-85
+12-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:8:22-82
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:9:5-76
+13-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:9:22-73
+14    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+14-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:10:5-11:47
+14-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:10:22-90
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:12:5-68
+15-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:12:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:13:5-74
+16-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:13:22-71
+17    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+17-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:14:5-79
+17-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+18-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:15:5-76
+18-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:15:22-73
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:16:5-67
+19-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:16:22-64
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:17:5-80
+20-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:17:22-77
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:18:5-70
+21-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:18:22-68
+22    <uses-permission android:name="android.permission.NFC" />
+22-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:19:5-62
+22-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:19:22-59
+23    <uses-permission android:name="android.permission.READ_CALENDAR" />
+23-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:20:5-72
+23-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:20:22-69
+24    <uses-permission android:name="android.permission.READ_SMS" />
+24-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:21:5-67
+24-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:21:22-64
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:22:5-81
+25-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:22:22-78
+26    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+26-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:23:5-70
+26-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:23:22-67
+27    <uses-permission android:name="android.permission.SEND_SMS" />
+27-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:24:5-67
+27-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:24:22-64
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:25:5-81
+28-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:25:22-78
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:26:5-27:47
+29-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:26:22-70
+30    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+30-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:28:5-78
+30-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:28:22-75
+31    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+31-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:29:5-78
+31-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:29:22-75
+32
+33    <application
+33-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:31:5-164:19
+34        android:name="ryey.easer.EaserApplication"
+34-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:32:9-41
+35        android:allowBackup="true"
+35-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:33:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] /home/pablo/.gradle/caches/transforms-2/files-2.1/9c933b15d9f93e76e4d82ea7601e25c9/core-1.1.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:34:9-43
+39        android:label="@string/app_name"
+39-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:35:9-41
+40        android:supportsRtl="false"
+40-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:36:9-36
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme" >
+42-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:37:9-40
+43        <activity
+43-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:38:9-47:20
+44            android:name="ryey.easer.core.ui.MainActivity"
+44-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:39:13-49
+45            android:label="@string/app_name"
+45-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:40:13-45
+46            android:theme="@style/AppTheme.NoActionBar" >
+46-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:41:13-56
+47            <intent-filter>
+47-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:42:13-46:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:43:17-69
+48-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:43:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:45:17-77
+50-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:45:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <service
+54-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:49:9-52:39
+55            android:name="ryey.easer.core.EHService"
+55-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:50:13-43
+56            android:enabled="true"
+56-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:51:13-35
+57            android:exported="true" />
+57-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:52:13-36
+58        <service
+58-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:53:9-55:40
+59            android:name="ryey.easer.core.ProfileLoaderIntentService"
+59-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:54:13-60
+60            android:exported="false" />
+60-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:55:13-37
+61
+62        <activity
+62-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:57:9-59:51
+63            android:name="ryey.easer.core.ui.AboutActivity"
+63-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:58:13-50
+64            android:label="@string/title_about" />
+64-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:59:13-48
+65        <activity
+65-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:60:9-62:53
+66            android:name="ryey.easer.core.ui.setting.SettingsActivity"
+66-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:61:13-61
+67            android:label="@string/title_setting" />
+67-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:62:13-50
+68
+69        <receiver
+69-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:64:9-71:20
+70            android:name="ryey.easer.core.BootupReceiver"
+70-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:65:13-48
+71            android:enabled="false"
+71-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:66:13-36
+72            android:exported="true" >
+72-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:67:13-36
+73            <intent-filter>
+73-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:68:13-70:29
+74                <action android:name="android.intent.action.BOOT_COMPLETED" />
+74-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:69:17-79
+74-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:69:25-76
+75            </intent-filter>
+76        </receiver>
+77
+78        <activity android:name="ryey.easer.core.ui.data.EditScriptActivity" />
+78-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:73:9-69
+78-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:73:19-66
+79        <activity android:name="ryey.easer.core.ui.data.EditProfileActivity" />
+79-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:74:9-70
+79-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:74:19-67
+80        <activity
+80-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:75:9-79:52
+81            android:name="ryey.easer.plugins.operation.brightness.DumbSettingBrightnessActivity"
+81-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:76:13-87
+82            android:excludeFromRecents="true"
+82-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:77:13-46
+83            android:taskAffinity="com.antonc.phone_schedule.Dummy"
+83-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:78:13-67
+84            android:theme="@style/EmptyActivity" />
+84-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:79:13-49
+85
+86        <service
+86-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:81:9-88:19
+87            android:name="ryey.easer.plugins.operation.ringer_mode.InterruptionFilterSwitcherService"
+87-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:82:13-92
+88            android:label="@string/label_operation_ringer_mode_notification_listener_service"
+88-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:83:13-94
+89            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+89-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:84:13-87
+90            <intent-filter>
+90-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:85:13-87:29
+91                <action android:name="android.service.notification.NotificationListenerService" />
+91-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:17-99
+91-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:25-96
+92            </intent-filter>
+93        </service>
+94        <service
+94-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:89:9-96:19
+95            android:name="ryey.easer.plugins.event.notification.NotificationEventListenerService"
+95-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:90:13-88
+96            android:label="@string/label_event_notification_listener_service"
+96-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:91:13-78
+97            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+97-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:92:13-87
+98            <intent-filter>
+98-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:85:13-87:29
+99                <action android:name="android.service.notification.NotificationListenerService" />
+99-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:17-99
+99-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:25-96
+100            </intent-filter>
+101        </service>
+102
+103        <activity
+103-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:98:9-107:20
+104            android:name="ryey.easer.plugins.event.nfc_tag.WaitForNfcActivity"
+104-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:99:13-69
+105            android:enabled="false"
+105-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:100:13-36
+106            android:theme="@style/AppTheme.ActivityDialog" >
+106-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:101:13-59
+107            <intent-filter>
+107-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:102:13-106:29
+108                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+108-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:103:17-76
+108-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:103:25-73
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:105:17-76
+110-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:105:27-73
+111            </intent-filter>
+112        </activity>
+113        <activity android:name="ryey.easer.plugins.event.nfc_tag.NfcListenerActivity" >
+113-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:108:9-114:20
+113-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:108:19-76
+114            <intent-filter>
+114-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:102:13-106:29
+115                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+115-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:103:17-76
+115-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:103:25-73
+116
+117                <category android:name="android.intent.category.DEFAULT" />
+117-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:105:17-76
+117-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:105:27-73
+118            </intent-filter>
+119        </activity>
+120
+121        <service
+121-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:116:9-119:40
+122            android:name="ryey.easer.plugins.event.nfc_tag.NfcListenerService"
+122-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:117:13-69
+123            android:enabled="true"
+123-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:118:13-35
+124            android:exported="false" />
+124-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:119:13-37
+125
+126        <activity android:name="ryey.easer.core.ui.data.EditEventActivity" />
+126-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:121:9-68
+126-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:121:19-65
+127
+128        <service
+128-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:123:9-130:19
+129            android:name="ryey.easer.plugins.operation.media_control.MediaControlHelperNotificationListenerService"
+129-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:124:13-106
+130            android:label="@string/operation_media_control_helper_service_label"
+130-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:125:13-81
+131            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+131-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:126:13-87
+132            <intent-filter>
+132-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:85:13-87:29
+133                <action android:name="android.service.notification.NotificationListenerService" />
+133-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:17-99
+133-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:86:25-96
+134            </intent-filter>
+135        </service>
+136
+137        <activity android:name="ryey.easer.core.ui.data.EditConditionActivity" />
+137-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:132:9-72
+137-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:132:19-69
+138
+139        <receiver
+139-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:134:9-141:20
+140            android:name="ryey.easer.core.UpgradeCompleteReceiver"
+140-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:135:13-57
+141            android:enabled="true"
+141-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:136:13-35
+142            android:exported="false" >
+142-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:137:13-37
+143            <intent-filter>
+143-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:138:13-140:29
+144                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+144-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:139:17-84
+144-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:139:25-81
+145            </intent-filter>
+146        </receiver>
+147
+148        <service
+148-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:143:9-146:40
+149            android:name="ryey.easer.core.ConditionHolderService"
+149-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:144:13-56
+150            android:enabled="true"
+150-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:145:13-35
+151            android:exported="false" />
+151-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:146:13-37
+152        <service
+152-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:148:9-151:40
+153            android:name="ryey.easer.core.log.ActivityLogService"
+153-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:149:13-56
+154            android:enabled="true"
+154-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:150:13-35
+155            android:exported="false" />
+155-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:151:13-37
+156
+157        <receiver android:name="ryey.easer.core.EaserStatusWidget" >
+157-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:153:9-163:20
+157-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:153:19-57
+158            <intent-filter>
+158-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:154:13-158:29
+159                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+159-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:155:17-84
+159-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:155:25-81
+160                <action android:name="ryey.easer.core.EaserStatusWidget.ACTION_CLICK" />
+160-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:156:17-89
+160-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:156:25-86
+161                <action android:name="ryey.easer.action.STATE_CHANGED" />
+161-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:157:17-74
+161-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:157:25-71
+162            </intent-filter>
+163
+164            <meta-data
+164-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:160:13-162:68
+165                android:name="android.appwidget.provider"
+165-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:161:17-58
+166                android:resource="@xml/easer_status_widget_info" />
+166-->/home/pablo/StudioProjects/Sauti/app/src/main/AndroidManifest.xml:162:17-65
+167        </receiver>
+168    </application>
+169
+170</manifest>
