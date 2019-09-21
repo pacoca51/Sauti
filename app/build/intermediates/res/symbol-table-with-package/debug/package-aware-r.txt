@@ -1496,7 +1496,6 @@ id spinnerTarget
 id spinner_condition
 id spinner_event
 id spinner_parent
-id spinner_placeholder
 id spinner_profile
 id spinner_scenario
 id spinner_type
@@ -1569,11 +1568,7 @@ id textView43
 id textView44
 id textView45
 id textView46
-id textView47
-id textView48
-id textView49
 id textView5
-id textView50
 id textView6
 id textView7
 id textView8
@@ -1609,7 +1604,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id tv_extra
 id tv_operation_name
-id tv_placeholder
 id tv_profile
 id tv_script
 id tv_service
@@ -1687,7 +1681,6 @@ layout abc_tooltip
 layout activity_about
 layout activity_dialog
 layout activity_edit_condition
-layout activity_edit_dynamics
 layout activity_edit_event
 layout activity_edit_profile
 layout activity_edit_script
@@ -1722,7 +1715,6 @@ layout fragment_pluginview_event
 layout fragment_pluginview_profile
 layout item_activity_log
 layout item_data_list
-layout item_dynamics_link
 layout item_header
 layout item_operation
 layout mtrl_layout_snackbar
